@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="592" height="228" viewBox="0 0 592 228" preserveAspectRatio="xMidYMid meet" overflow="visible">
+<defs>
+  <clipPath id="visibleAbovePanel" clipPathUnits="userSpaceOnUse">
+    <rect x="-90" y="-90" width="180" height="90"/>
+  </clipPath>
+</defs>
+<g transform="translate(224 55)" clip-path="url(#visibleAbovePanel)">
+  <g>
+    <animateTransform attributeName="transform" type="scale" dur="3.65s" begin="-1.22s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.07;0.13;0.20;0.28;0.43;0.49;0.57;0.65;1" keySplines=".27 0 .18 1;.27 0 .18 1;.27 0 .18 1;.27 0 .18 1;.27 0 .18 1;.27 0 .18 1;.27 0 .18 1;.27 0 .18 1;.27 0 .18 1" values="1 1;1 1;0.875 1.30;1.05 0.962;1 1;1 1;0.915 1.19;1.028 0.98;1 1;1 1"/>
+    <g>
+      <animateTransform attributeName="transform" type="skewX" dur="3.65s" begin="-1.22s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.07;0.13;0.20;0.28;0.43;0.49;0.57;0.65;1" keySplines=".27 0 .18 1;.27 0 .18 1;.27 0 .18 1;.27 0 .18 1;.27 0 .18 1;.27 0 .18 1;.27 0 .18 1;.27 0 .18 1;.27 0 .18 1" values="0;0;-5.2;1.9;0;0;-3.5;1.15;0;0"/>
+      <g><image x="-15.0" y="-19" width="30" height="35" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAjCAYAAACD1LrRAAAB+UlEQVR4nO2Wv08UQRiGn+EOvJMY9DjQxujSYMBA+KXNtjYUVnYaGqlJrKfBYltrLrnrtKOy4C+YRo0kEEjogE4TSaQgqHAZixsvevvt7Jxa7lvu937vs9/M7GQVfUgbWwJWgefArHu8A7SAZhKrdmiW6gM6CGwCjzMsb4EnSawuQvIGQsHAugeKq62HhgVNrI2dAT4C5RzrJbCQxGo3LzN3YrevrQAoztNyPf8GBtaAxQDfLy26Hq+8S62NvQPsA8N9gAHOgOkkVsdZhryJN/4CiuvZ8BkyJ9bGPgVeS7XRKizdtFy/Al+/w4fPipNzMeZZEqs3wWBt7ChwANR7a5UyLN+1DP12fH60YetI8e0yFfUFuJfE6qS3kLXUryQowGz9TyjAUAlm6lay111WSimwNvYRsCKZb1QgGpHfdGKkUxe04jKzwdrYq0BDjob5cXGqkHrDZctg4CUQSZ23r8FY1ctlrNrxCYpcdlfdw6WNnQfeA6lbp6RgObIMD/rBAGcXsHWoaKeHbwMPklhtg5tYG1sGmhIUYLJGEBQ6vsmaWCoBTcfqLvULYE5yV8owVfPvba+mapaKfLPPORZKGzsB7AHiDj68ZTNPsk+Hp/Duk3hNnAP3B+icYhHq+3zyFGV/XlWg0c+PwH9VAS7ABbgAF+ACXIC7+glxDXLX19N5qwAAAABJRU5ErkJggg=="/></g>
+    </g>
+  </g>
+</g>
+<g transform="translate(367 55)" clip-path="url(#visibleAbovePanel)">
+  <g>
+    <animateTransform attributeName="transform" type="scale" dur="4.05s" begin="-2.76s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.12;0.18;0.25;0.33;0.49;0.56;0.64;0.72;1" keySplines=".27 0 .18 1;.27 0 .18 1;.27 0 .18 1;.27 0 .18 1;.27 0 .18 1;.27 0 .18 1;.27 0 .18 1;.27 0 .18 1;.27 0 .18 1" values="1 1;1 1;0.885 1.28;1.045 0.965;1 1;1 1;0.92 1.18;1.024 0.982;1 1;1 1"/>
+    <g>
+      <animateTransform attributeName="transform" type="skewX" dur="4.05s" begin="-2.76s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.12;0.18;0.25;0.33;0.49;0.56;0.64;0.72;1" keySplines=".27 0 .18 1;.27 0 .18 1;.27 0 .18 1;.27 0 .18 1;.27 0 .18 1;.27 0 .18 1;.27 0 .18 1;.27 0 .18 1;.27 0 .18 1" values="0;0;4.8;-1.7;0;0;3.15;-1.0;0;0"/>
+      <g transform="scale(-1 1)"><image x="-15.0" y="-19" width="30" height="35" preserveAspectRatio="none" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAjCAYAAACD1LrRAAAB+UlEQVR4nO2Wv08UQRiGn+EOvJMY9DjQxujSYMBA+KXNtjYUVnYaGqlJrKfBYltrLrnrtKOy4C+YRo0kEEjogE4TSaQgqHAZixsvevvt7Jxa7lvu937vs9/M7GQVfUgbWwJWgefArHu8A7SAZhKrdmiW6gM6CGwCjzMsb4EnSawuQvIGQsHAugeKq62HhgVNrI2dAT4C5RzrJbCQxGo3LzN3YrevrQAoztNyPf8GBtaAxQDfLy26Hq+8S62NvQPsA8N9gAHOgOkkVsdZhryJN/4CiuvZ8BkyJ9bGPgVeS7XRKizdtFy/Al+/w4fPipNzMeZZEqs3wWBt7ChwANR7a5UyLN+1DP12fH60YetI8e0yFfUFuJfE6qS3kLXUryQowGz9TyjAUAlm6lay111WSimwNvYRsCKZb1QgGpHfdGKkUxe04jKzwdrYq0BDjob5cXGqkHrDZctg4CUQSZ23r8FY1ctlrNrxCYpcdlfdw6WNnQfeA6lbp6RgObIMD/rBAGcXsHWoaKeHbwMPklhtg5tYG1sGmhIUYLJGEBQ6vsmaWCoBTcfqLvULYE5yV8owVfPvba+mapaKfLPPORZKGzsB7AHiDj68ZTNPsk+Hp/Duk3hNnAP3B+icYhHq+3zyFGV/XlWg0c+PwH9VAS7ABbgAF+ACXIC7+glxDXLX19N5qwAAAABJRU5ErkJggg=="/></g>
+    </g>
+  </g>
+</g>
+</svg>
