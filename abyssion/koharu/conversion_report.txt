@@ -1,0 +1,29 @@
+PNG → WebP 변환 보고서
+
+- 대형 텍스처/패턴: WebP 품질 90
+- 소형 장식 이미지: 무손실 WebP
+
+변환 전 합계: 2.61 MB
+변환 후 합계: 0.56 MB
+감소율: 78.4%
+
+파일별 결과:
+- 01-texture.png [품질 90] 1232.3 KB → 269.3 KB
+- 02-texture.png [품질 90] 1231.9 KB → 270.4 KB
+- 03-pattern.png [품질 90] 73.7 KB → 7.7 KB
+- 04-pattern.png [품질 90] 73.7 KB → 7.7 KB
+- 05-mark.png [무손실] 15.4 KB → 8.5 KB
+- normal/06-EllipseRL.png [무손실] 3.3 KB → 1.1 KB
+- normal/07-EllipseRR.png [무손실] 3.1 KB → 1.0 KB
+- normal/08-EllipseLL.png [무손실] 3.3 KB → 1.1 KB
+- normal/08-EllipseLR.png [무손실] 3.3 KB → 1.1 KB
+- ring.png [무손실] 2.5 KB → 0.6 KB
+- stars.png [무손실] 1.8 KB → 0.2 KB
+- str/06-EllipseRL.png [무손실] 3.5 KB → 1.1 KB
+- str/07-EllipseRR.png [무손실] 3.3 KB → 1.0 KB
+- str/08-EllipseLL.png [무손실] 3.6 KB → 1.1 KB
+- str/09-EllipseLR.png [무손실] 3.5 KB → 1.1 KB
+- sub/06-EllipseRL.png [무손실] 3.5 KB → 1.1 KB
+- sub/07-EllipseRR.png [무손실] 3.3 KB → 1.0 KB
+- sub/08-EllipseLL.png [무손실] 3.6 KB → 1.1 KB
+- sub/09-EllipseLR.png [무손실] 3.5 KB → 1.1 KB
