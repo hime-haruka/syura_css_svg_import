@@ -8,14 +8,14 @@
     .wing-flap {
       transform-box: view-box;
       transform-origin: 28.0px 46.0px;
-      animation: flap 1.8s cubic-bezier(.42,0,.58,1) infinite;
+      animation: flap 2.02s cubic-bezier(.42,0,.58,1) infinite;
       will-change: transform;
       image-rendering: auto;
     }
     @keyframes flap {
-      0% { transform: rotate(2deg); }
-      50% { transform: rotate(-8deg); }
-      100% { transform: rotate(2deg); }
+      0% { transform: rotate(1.5deg); }
+      50% { transform: rotate(-6.5deg); }
+      100% { transform: rotate(1.5deg); }
     }
     @media (prefers-reduced-motion: reduce) {
       .wing-flap { animation: none; }
