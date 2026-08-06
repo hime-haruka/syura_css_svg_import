@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="28" viewBox="0 0 24 28" overflow="visible" role="img" aria-label="04-starT 반짝임 애니메이션">
+  <title>04-starT 반짝임 애니메이션</title>
+  <g transform="translate(12 14)">
+    <g>
+      <animateTransform attributeName="transform" type="scale" values="0.68;1.20;0.88;1.08;0.68" keyTimes="0;0.24;0.52;0.72;1" dur="1.8s" begin="-0s" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1"/>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="-10;8;-5;10;-10" keyTimes="0;0.24;0.52;0.72;1" dur="1.8s" begin="-0s" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1"/>
+        <image href="data:image/webp;base64,UklGRogAAABXRUJQVlA4THsAAAAvC8ADEFDINgLkj1ieexjK3n+31bY9xy2zAH/5V7qcmSOXmQEMovVXNvj1NrABZWodE7gnAAAkcYrcpQ8X2h/O9FFYTqTDciR9jbSUlULMrgGBmN1V0dyP1c9CAm7sugBkhCqGIpICdHlPUjhgTaovaQ/qLRj5qx2QAgAA" x="-6" y="-8" width="12" height="16">
+          <animate attributeName="opacity" values="0.35;1;0.58;1;0.35" keyTimes="0;0.24;0.52;0.72;1" dur="1.8s" begin="-0s" repeatCount="indefinite"/>
+        </image>
+      </g>
+    </g>
+  </g>
+</svg>
