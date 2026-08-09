@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     version="1.1"
+     viewBox="230 235 620 620"
+     width="620"
+     height="620">
+  <defs>
+    <mask id="biteMask" maskUnits="userSpaceOnUse" x="230" y="235" width="620" height="620">
+      <rect x="230" y="235" width="620" height="620" fill="white"/>
+      <circle cx="540" cy="350" r="145" fill="black"/>
+      <circle cx="395" cy="520" r="170" fill="black"/>
+    </mask>
+  </defs>
+
+  <g transform="rotate(-8 540 540)" mask="url(#biteMask)">
+    <path d="M454.37,414.16c38.1-65.84,133.16-65.84,171.26,0l47.32,70.77,47.16,81.87c37.97,65.92-9.56,148.24-85.63,148.32l-94.48.1-94.48-.1c-76.07-.08-123.6-82.4-85.63-148.32l47.16-81.87,47.32-70.77Z"
+          fill="#ffffff"
+          stroke="#000000"
+          stroke-width="26"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+    <path d="M490.1,541.64h99.81c16.98,0,30.76,13.78,30.76,30.76v142.75h-161.33v-142.75c0-16.98,13.78-30.76,30.76-30.76Z"
+          fill="#2b2c30"
+          stroke="#000000"
+          stroke-width="18"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+  </g>
+</svg>
