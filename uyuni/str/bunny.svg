@@ -67,8 +67,8 @@
         vector-effect: non-scaling-stroke;
       }
 
-      .smile-eye-line { stroke-width: 4.2; }
-      .wink-eye-line { stroke-width: 4.3; }
+      .smile-eye-line { stroke-width: 3.2; }
+      .wink-eye-line { stroke-width: 3.2; }
 
       @media (prefers-reduced-motion: reduce) {
         .ear-left, .ear-right, .eye-anim,
