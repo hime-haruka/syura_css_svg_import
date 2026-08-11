@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="205 202 150 162"
+     width="150" height="162"
+     overflow="visible"
+     role="img">
+  <defs>
+    <style>
+      .ear-left { animation: blink-ear-left 3.9s ease-in-out infinite; }
+      .ear-right { animation: blink-ear-right 3.9s ease-in-out infinite; }
+      .smile-open { animation: smile-open-state 4.2s ease-in-out infinite; }
+      .smile-closed { animation: smile-closed-state 4.2s ease-in-out infinite; opacity: 0; }
+      @keyframes blink-ear-left {
+        0%,52%,100% { transform: rotate(0deg) translateY(0px) scaleY(1); }
+        58% { transform: rotate(10deg) translateY(-1.5px) scaleY(1.01); }
+        64% { transform: rotate(3deg) translateY(-0.5px) scaleY(1); }
+        70% { transform: rotate(7deg) translateY(-1px) scaleY(1.005); }
+        78% { transform: rotate(0deg) translateY(0px) scaleY(1); }
+      }
+      @keyframes blink-ear-right {
+        0%,52%,100% { transform: rotate(0deg) translateY(0px) scaleY(1); }
+        58% { transform: rotate(-10deg) translateY(-1.5px) scaleY(1.01); }
+        64% { transform: rotate(-3deg) translateY(-0.5px) scaleY(1); }
+        70% { transform: rotate(-7deg) translateY(-1px) scaleY(1.005); }
+        78% { transform: rotate(0deg) translateY(0px) scaleY(1); }
+      }
+      @keyframes smile-open-state { 0%,46%,72%,100%{opacity:1} 51%,67%{opacity:0} }
+      @keyframes smile-closed-state { 0%,46%,72%,100%{opacity:0} 51%,67%{opacity:1} }
+    </style>
+    <style>
+      .fur { fill: #ceb29d; }
+      .muzzle { fill: #fcf3d6; }
+      .dark { fill: #673946; }
+      .pink { fill: #f5c8c3; }
+
+      /* Real vector outline: no SVG filter, so animated ears cannot clip. */
+      .outer-outline {
+        stroke: #8f6673;
+        stroke-width: 5.6;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        vector-effect: non-scaling-stroke;
+      }
+
+      .ear-left, .ear-right {
+        transform-box: fill-box;
+        transform-origin: 50% 92%;
+        will-change: transform;
+      }
+
+      .eye-anim,
+      .smile-open,
+      .smile-closed,
+      .wink-open,
+      .wink-closed {
+        transform-box: fill-box;
+        transform-origin: center;
+        will-change: transform, opacity;
+      }
+
+      .eye-line {
+        fill: none;
+        stroke: #673946;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        vector-effect: non-scaling-stroke;
+      }
+
+      .smile-eye-line { stroke-width: 4.2; }
+      .wink-eye-line { stroke-width: 4.3; }
+
+      @media (prefers-reduced-motion: reduce) {
+        .ear-left, .ear-right, .eye-anim,
+        .smile-open, .smile-closed,
+        .wink-open, .wink-closed { animation: none !important; }
+      }
+    </style>
+
+    <clipPath id="faceClip" clipPathUnits="userSpaceOnUse">
+      <ellipse cx="-768.46" cy="-359.45" rx="57.82" ry="48.95"/>
+    </clipPath>
+  </defs>
+
+  <g id="bunny" transform="translate(1045 660)">
+    <!-- True vector outline layer behind the artwork.
+         This replaces the filter-based outline that could clip during animation. -->
+    <g class="outline-layer">
+      <g class="ear-right">
+        <path class="fur outer-outline"
+              d="M-756.94-388.75s.95-73.5,35.49-51.01c34.53,22.5-17.74,62.73-17.74,62.73l-17.74-11.72Z"/>
+      </g>
+      <g class="ear-left">
+        <path class="fur outer-outline"
+              d="M-779.99-388.75s-.95-73.5-35.49-51.01c-34.53,22.5,17.74,62.73,17.74,62.73l17.74-11.72Z"/>
+      </g>
+      <ellipse class="fur outer-outline"
+               cx="-768.46" cy="-359.45" rx="57.82" ry="48.95"/>
+    </g>
+
+    <g class="ear-right">
+      <path class="fur" d="M-756.94-388.75s.95-73.5,35.49-51.01c34.53,22.5-17.74,62.73-17.74,62.73l-17.74-11.72Z"/>
+      <path class="pink" d="M-746.69-393.97c.33-5,1.07-12.84,2.77-20.53,2.98-13.5,7.38-19.54,10.41-19.54.94,0,3.04.35,6.59,2.66,6.29,4.09,7.15,7.84,7.25,10.3.39,9.62-10.67,22.9-20.25,31.6l-6.78-4.48Z"/>
+    </g>
+
+    <g class="ear-left">
+      <path class="fur" d="M-779.99-388.75s-.95-73.5-35.49-51.01c-34.53,22.5,17.74,62.73,17.74,62.73l17.74-11.72Z"/>
+      <path class="pink" d="M-797.01-389.49c-9.58-8.69-20.64-21.97-20.25-31.6.1-2.46.96-6.2,7.25-10.3,3.55-2.31,5.66-2.66,6.59-2.66,3.03,0,7.43,6.04,10.41,19.54,1.7,7.69,2.45,15.53,2.77,20.53l-6.78,4.48Z"/>
+    </g>
+
+    <ellipse class="fur" cx="-768.46" cy="-359.45" rx="57.82" ry="48.95"/>
+
+    <g clip-path="url(#faceClip)">
+      <path class="muzzle" d="M-695.43-315.96c0,20.8-32.34,37.66-72.24,37.66s-72.24-16.86-72.24-37.66,32.34-45.98,72.24-45.98,72.24,25.18,72.24,45.98Z"/>
+      <circle class="pink" cx="-814.5" cy="-344.57" r="13.93"/>
+      <circle class="pink" cx="-722.42" cy="-344.57" r="13.93"/>
+    </g>
+
+    <path class="dark" d="M-764.52-356.87c-.89-.93-1.72-1.91-2.47-2.95v-2.75c0-1.98-3.08-1.99-3.08,0v2.93c-.72.98-1.5,1.89-2.34,2.77-1.37,1.43.8,3.61,2.18,2.18.62-.65,1.21-1.32,1.77-2.02.56.7,1.15,1.37,1.77,2.02,1.38,1.43,3.55-.75,2.18-2.18Z"/>
+
+    <g class="smile-open">
+      <ellipse class="dark" cx="-793.18" cy="-360.94" rx="5.65" ry="5.11" transform="translate(33.42 -85.01) rotate(-6.01)"/>
+      <ellipse class="dark" cx="-743.75" cy="-360.94" rx="5.11" ry="5.65" transform="translate(-306.94 -1062.82) rotate(-83.99)"/>
+    </g>
+    <g class="smile-closed">
+      <path class="eye-line smile-eye-line" d="M-800.7 -361.8 Q-793.8 -371.8 -786.1 -361.8"/>
+      <path class="eye-line smile-eye-line" d="M-750.9 -361.8 Q-743.8 -371.8 -736.2 -361.8"/>
+    </g>
+  </g>
+</svg>
