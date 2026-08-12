@@ -70,11 +70,7 @@
       .smile-eye-line { stroke-width: 3.2; }
       .wink-eye-line { stroke-width: 3.2; }
 
-      @media (prefers-reduced-motion: reduce) {
-        .ear-left, .ear-right, .eye-anim,
-        .smile-open, .smile-closed,
-        .wink-open, .wink-closed { animation: none !important; }
-      }
+      
     </style>
 
     <clipPath id="faceClip" clipPathUnits="userSpaceOnUse">

@@ -22,9 +22,7 @@
         50% { transform: rotate(14deg) translateY(-3px); }
       }
 
-      @media (prefers-reduced-motion: reduce) {
-        .wing-flap { animation: none; }
-      }
+      
     </style>
   </defs>
 
