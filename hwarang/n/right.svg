@@ -44,12 +44,14 @@
     </style>
   </defs>
 
+  <g transform="translate(86.61 0) scale(-1 1)">
   <g class="cloud-drift">
     <use href="#cloud-n-right-shape" class="outer-stroke"/>
   <use href="#cloud-n-right-shape" class="fill-shape"/>
 
   <g clip-path="url(#cloud-n-right-clip)">
     <use href="#cloud-n-right-shape" class="inner-stroke"/>
+  </g>
   </g>
   </g>
 </svg>
