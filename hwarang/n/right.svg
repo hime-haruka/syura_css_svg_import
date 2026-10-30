@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="cloud-n-right" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-8 -4 102.61 39">
+  <defs>
+    <path id="cloud-n-right-shape" d="M82.8,23.37h-31.41v-3.56h29.08c2.11,0,3.81-1.71,3.81-3.81s-1.71-3.81-3.81-3.81h-15.37v-4.56h17.43c2.11,0,3.81-1.71,3.81-3.81s-1.71-3.81-3.81-3.81H28.48c-2.11,0-3.81,1.71-3.81,3.81s1.71,3.81,3.81,3.81h20.85v4.56H3.81c-2.11,0-3.81,1.71-3.81,3.81s1.71,3.81,3.81,3.81h27.7v3.56h-7.83c-2.11,0-3.81,1.71-3.81,3.81s1.71,3.81,3.81,3.81h59.11c2.11,0,3.81-1.71,3.81-3.81s-1.71-3.81-3.81-3.81Z"/>
+
+    <clipPath id="cloud-n-right-clip">
+      <use href="#cloud-n-right-shape"/>
+    </clipPath>
+
+    <style>
+      #cloud-n-right .outer-stroke {
+        fill: none;
+        stroke: #bb9147;
+        stroke-width: 2;
+        stroke-linejoin: round;
+        stroke-linecap: round;
+        vector-effect: non-scaling-stroke;
+      }
+
+      #cloud-n-right .fill-shape {
+        fill: #ffe9aa;
+      }
+
+      #cloud-n-right .inner-stroke {
+        fill: none;
+        stroke: #fff1b2;
+        stroke-width: 2;
+        stroke-linejoin: round;
+        stroke-linecap: round;
+        vector-effect: non-scaling-stroke;
+      }
+
+      #cloud-n-right .cloud-drift {
+        animation: cloudDriftNRight 13.4s ease-in-out -5.6s infinite;
+        will-change: transform;
+      }
+
+      @keyframes cloudDriftNRight {
+        0% { transform: translateX(1.9px); }
+        41% { transform: translateX(-4.2px); }
+        76% { transform: translateX(3.5px); }
+        100% { transform: translateX(1.9px); }
+      }
+    </style>
+  </defs>
+
+  <g class="cloud-drift">
+    <use href="#cloud-n-right-shape" class="outer-stroke"/>
+  <use href="#cloud-n-right-shape" class="fill-shape"/>
+
+  <g clip-path="url(#cloud-n-right-clip)">
+    <use href="#cloud-n-right-shape" class="inner-stroke"/>
+  </g>
+  </g>
+</svg>

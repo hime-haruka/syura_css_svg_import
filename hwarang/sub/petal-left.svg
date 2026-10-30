@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 42" width="48" height="42">
+  <defs>
+    <path id="leafShape" d="M7.024272289244888 6.499051222186609C5.062534965822006 7.313377968519731 3.9455255443779276 8.989240707216938 4.147861973689557 10.71715004748048C4.722684086239417 15.543755967746115 7.361674542104066 26.274052238987483 19.46610817312754 27.636284184225023C35.15065701487504 29.39938281120427 34.519119490868135 34.05055205794491 34.45631833571139 35.042423343981156C34.393517180554625 36.034294630017406 42.785608263958295 36.64163820075083 36.76300140617717 19.328729724719242C31.575380953749416 4.402686536200372 14.909452746566739 3.2239431034533057 7.024272289244888 6.499051222186609Z" />
+    <clipPath id="shapeClip"><use xlink:href="#leafShape"/></clipPath>
+    <linearGradient id="leafGradient" x1="50%" y1="0%" x2="50%" y2="100%" gradientTransform="rotate(-7 .5 .5)">
+      <stop offset="0" stop-color="#f2f8e8"/>
+      <stop offset=".52" stop-color="#d8ebbc"/>
+      <stop offset="1" stop-color="#b4d085"/>
+    </linearGradient>
+    <radialGradient id="lightCenter" cx="43%" cy="36%" r="70%">
+      <stop offset="0" stop-color="#fdfffb" stop-opacity=".95"/>
+      <stop offset=".42" stop-color="#eff8df" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#eff8df" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="outerShadow" x="-6" y="-6" width="60" height="54" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx=".5" dy="1" stdDeviation=".7" flood-color="#6d8f46" flood-opacity=".6" />
+    </filter>
+    <filter id="insideHighlight1" x="-8" y="-8" width="64" height="58" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="1.4" dy="1.25" result="shift"/>
+      <feComposite in="SourceAlpha" in2="shift" operator="out" result="insideEdge"/>
+      <feFlood flood-color="#ffffff" flood-opacity="1" result="white"/>
+      <feComposite in="white" in2="insideEdge" operator="in"/>
+    </filter>
+    <filter id="insideHighlight2" x="-8" y="-8" width="64" height="58" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="-2.8" dy="3.2" result="shift"/>
+      <feComposite in="SourceAlpha" in2="shift" operator="out" result="insideEdge"/>
+      <feGaussianBlur in="insideEdge" stdDeviation=".8" result="soft"/>
+      <feFlood flood-color="#ffffff" flood-opacity=".72" result="white"/>
+      <feComposite in="white" in2="soft" operator="in"/>
+    </filter>
+    <filter id="softInner" x="-6" y="-6" width="60" height="54" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation=".65"/>
+    </filter>
+    <style>
+      .outside {fill:none;stroke:#8bb060;stroke-width:2;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+      .inside {fill:none;stroke:#e9f8cf;stroke-width:2;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+    </style>
+  </defs>
+  <use xlink:href="#leafShape" fill="#b4d085" filter="url(#outerShadow)"/>
+  <use xlink:href="#leafShape" class="outside"/>
+  <use xlink:href="#leafShape" fill="url(#leafGradient)"/>
+  <g clip-path="url(#shapeClip)">
+    <use xlink:href="#leafShape" fill="url(#lightCenter)"/>
+    <use xlink:href="#leafShape" fill="none" stroke="#ffffff" stroke-width="5" opacity=".42" transform="translate(-1.4 2.8)" filter="url(#softInner)"/>
+    <use xlink:href="#leafShape" fill="none" stroke="#ffffff" stroke-width="2.3" opacity=".82" transform="translate(1.25 1.35)"/>
+    <use xlink:href="#leafShape" class="inside"/>
+  </g>
+</svg>
