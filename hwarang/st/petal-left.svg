@@ -33,8 +33,8 @@
       <feGaussianBlur stdDeviation=".65"/>
     </filter>
     <style>
-      .outside {fill:none;stroke:#b2aea5;stroke-width:2;stroke-linejoin:round;vector-effect:non-scaling-stroke}
-      .inside {fill:none;stroke:#f5f3eb;stroke-width:2;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+      .outside {fill:none;stroke:#b2aea5;stroke-width:2.6;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+      .inside {fill:none;stroke:#f5f3eb;stroke-width:2.6;stroke-linejoin:round;vector-effect:non-scaling-stroke}
     </style>
   </defs>
   <use xlink:href="#leafShape" fill="#d5d2c7" filter="url(#outerShadow)"/>
